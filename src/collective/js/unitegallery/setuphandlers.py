@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 from Products.CMFPlone.interfaces import INonInstallable
 from zope.interface import implementer
+from Products.CMFCore.utils import getToolByName
 from Products.CMFPlone.utils import getFSVersionTuple
+from zope.component.hooks import getSite
 
 
 @implementer(INonInstallable)
@@ -19,7 +21,8 @@ class HiddenProfiles(object):
 def post_install(context):
     """Post install script"""
     # Do something at the end of the installation of this package.
-    site = context.getSite()
+    site = getSite()
+    setup = getToolByName(site, 'portal_setup')
 
     if getFSVersionTuple()[0] == 4:
         setup.runAllImportStepsFromProfile('profile-collective.js.unitegallery:plone4')
