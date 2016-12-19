@@ -17,16 +17,12 @@
     <value key="resources" purge="false">
       <element>unitegallery</element>
     </value>
-    <value key="merge_with"></value>
+    <value key="depends">plone</value>
     <value key="jscompilation"></value>
     <value key="csscompilation"></value>
-    <value key="compile">False</value>
+    <value key="last_compilation">2016-12-19 00:00:00</value>
+    <value key="compile">True</value>
     <value key="enabled">True</value>
-    <value key="expression"></value>
-    <value key="depends">plone</value>
-    <value key="stub_js_modules">
-      <element>jquery</element>
-    </value>
   </records>
 
   <records prefix="plone.resources/unitegallery-carousel"
@@ -41,16 +37,12 @@
     <value key="resources" purge="false">
       <element>unitegallery-carousel</element>
     </value>
-    <value key="merge_with"></value>
+    <value key="depends">plone</value>
     <value key="jscompilation"></value>
     <value key="csscompilation"></value>
-    <value key="compile">False</value>
+    <value key="last_compilation">2016-12-19 00:00:00</value>
+    <value key="compile">True</value>
     <value key="enabled">True</value>
-    <value key="expression"></value>
-    <value key="depends">plone</value>
-    <value key="stub_js_modules">
-      <element>unitegallery</element>
-    </value>
   </records>
 
   <records prefix="plone.resources/unitegallery-compact"
@@ -64,16 +56,12 @@
     <value key="resources" purge="false">
       <element>unitegallery-compact</element>
     </value>
-    <value key="merge_with"></value>
+    <value key="depends">plone</value>
     <value key="jscompilation"></value>
     <value key="csscompilation"></value>
-    <value key="compile">False</value>
+    <value key="last_compilation">2016-12-19 00:00:00</value>
+    <value key="compile">True</value>
     <value key="enabled">True</value>
-    <value key="expression"></value>
-    <value key="depends">plone</value>
-    <value key="stub_js_modules">
-      <element>unitegallery</element>
-    </value>
   </records>
 
   <records prefix="plone.resources/unitegallery-default"
@@ -91,16 +79,12 @@
     <value key="resources" purge="false">
       <element>unitegallery-default</element>
     </value>
-    <value key="merge_with"></value>
+    <value key="depends">plone</value>
     <value key="jscompilation"></value>
     <value key="csscompilation"></value>
-    <value key="compile">False</value>
+    <value key="last_compilation">2016-12-19 00:00:00</value>
+    <value key="compile">True</value>
     <value key="enabled">True</value>
-    <value key="expression"></value>
-    <value key="depends">plone</value>
-    <value key="stub_js_modules">
-      <element>unitegallery</element>
-    </value>
   </records>
 
   <records prefix="plone.resources/unitegallery-grid"
@@ -115,16 +99,11 @@
     <value key="resources" purge="false">
       <element>unitegallery-grid</element>
     </value>
-    <value key="merge_with"></value>
-    <value key="jscompilation"></value>
-    <value key="csscompilation"></value>
-    <value key="compile">False</value>
-    <value key="enabled">True</value>
-    <value key="expression"></value>
     <value key="depends">plone</value>
-    <value key="stub_js_modules">
-      <element>unitegallery</element>
-    </value>
+    <value key="jscompilation"></value>
+    <value key="last_compilation">2016-12-19 00:00:00</value>
+    <value key="compile">True</value>
+    <value key="enabled">True</value>
   </records>
 
   <records prefix="plone.resources/unitegallery-slider"
@@ -139,16 +118,11 @@
     <value key="resources" purge="false">
       <element>unitegallery-slider</element>
     </value>
-    <value key="merge_with"></value>
-    <value key="jscompilation"></value>
-    <value key="csscompilation"></value>
-    <value key="compile">False</value>
-    <value key="enabled">True</value>
-    <value key="expression"></value>
     <value key="depends">plone</value>
-    <value key="stub_js_modules">
-      <element>unitegallery</element>
-    </value>
+    <value key="jscompilation"></value>
+    <value key="last_compilation">2016-12-19 00:00:00</value>
+    <value key="compile">True</value>
+    <value key="enabled">True</value>
   </records>
 
   <records prefix="plone.resources/unitegallery-tiles"
@@ -163,16 +137,11 @@
     <value key="resources" purge="false">
       <element>unitegallery-tiles</element>
     </value>
-    <value key="merge_with"></value>
-    <value key="jscompilation"></value>
-    <value key="csscompilation"></value>
-    <value key="compile">False</value>
-    <value key="enabled">True</value>
-    <value key="expression"></value>
     <value key="depends">plone</value>
-    <value key="stub_js_modules">
-      <element>unitegallery</element>
-    </value>
+    <value key="jscompilation"></value>
+    <value key="last_compilation">2016-12-19 00:00:00</value>
+    <value key="compile">True</value>
+    <value key="enabled">True</value>
   </records>
 
   <records prefix="plone.resources/unitegallery-tilesgrid"
@@ -187,16 +156,11 @@
     <value key="resources" purge="false">
       <element>unitegallery-tilesgrid</element>
     </value>
-    <value key="merge_with"></value>
-    <value key="jscompilation"></value>
-    <value key="csscompilation"></value>
-    <value key="compile">False</value>
-    <value key="enabled">True</value>
-    <value key="expression"></value>
     <value key="depends">plone</value>
-    <value key="stub_js_modules">
-      <element>unitegallery</element>
-    </value>
+    <value key="jscompilation"></value>
+    <value key="last_compilation">2016-12-19 00:00:00</value>
+    <value key="compile">True</value>
+    <value key="enabled">True</value>
   </records>
 
   <records prefix="plone.resources/unitegallery-video"
@@ -211,16 +175,11 @@
     <value key="resources" purge="false">
       <element>unitegallery-video</element>
     </value>
-    <value key="merge_with"></value>
-    <value key="jscompilation"></value>
-    <value key="csscompilation"></value>
-    <value key="compile">False</value>
-    <value key="enabled">True</value>
-    <value key="expression"></value>
     <value key="depends">plone</value>
-    <value key="stub_js_modules">
-      <element>unitegallery</element>
-    </value>
+    <value key="jscompilation"></value>
+    <value key="last_compilation">2016-12-19 00:00:00</value>
+    <value key="compile">True</value>
+    <value key="enabled">True</value>
   </records>
 
 </registry>
