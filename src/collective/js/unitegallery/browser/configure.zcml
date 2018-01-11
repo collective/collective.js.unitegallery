@@ -12,9 +12,11 @@
       />
 
   <!-- Publish static files -->
-  <browser:resourceDirectory
-      name="collective.js.unitegallery"
-      directory="static"
-      />
+  <plone:static
+     directory="static"
+     type="plone"
+     name="collective.js.unitegallery"
+     />
+
 
 </configure>

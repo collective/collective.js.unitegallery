@@ -15,6 +15,7 @@ class HiddenProfiles(object):
             'collective.js.unitegallery:uninstall',
             'collective.js.unitegallery:plone4',
             'collective.js.unitegallery:plone5',
+            'collective.js.unitegallery:to_1010',
         ]
 
 

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<registry xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+        i18n:domain="collective.js.unitegallery">
+
+  <records prefix="plone.bundles/unitegallery-carousel"
+           interface='Products.CMFPlone.interfaces.IBundleRegistry'
+           remove="true" />
+
+  <records prefix="plone.bundles/unitegallery-compact"
+           interface='Products.CMFPlone.interfaces.IBundleRegistry'
+           remove="true" />
+
+  <records prefix="plone.bundles/unitegallery-default"
+           interface='Products.CMFPlone.interfaces.IBundleRegistry'
+           remove="true" />
+
+  <records prefix="plone.bundles/unitegallery-grid"
+           interface='Products.CMFPlone.interfaces.IBundleRegistry'
+           remove="true" />
+
+  <records prefix="plone.bundles/unitegallery-slider"
+           interface='Products.CMFPlone.interfaces.IBundleRegistry'
+           remove="true" />
+
+  <records prefix="plone.bundles/unitegallery-tiles"
+           interface='Products.CMFPlone.interfaces.IBundleRegistry'
+           remove="true" />
+
+  <records prefix="plone.bundles/unitegallery-tilesgrid"
+           interface='Products.CMFPlone.interfaces.IBundleRegistry'
+           remove="true" />
+
+  <records prefix="plone.bundles/unitegallery-video"
+           interface='Products.CMFPlone.interfaces.IBundleRegistry'
+           remove="true" />
+
+</registry>

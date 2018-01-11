@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<registry xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+        i18n:domain="collective.js.unitegallery">
+
+  <records prefix="plone.resources/unitegallery"
+           interface='Products.CMFPlone.interfaces.IResourceRegistry'
+           remove="true" />
+
+  <records prefix="plone.resources/unitegallery-default"
+           interface='Products.CMFPlone.interfaces.IResourceRegistry'
+           remove="true" />
+
+  <records prefix="plone.resources/unitegallery-carousel"
+           interface='Products.CMFPlone.interfaces.IResourceRegistry'
+           remove="true" />
+
+  <records prefix="plone.resources/unitegallery-compact"
+           interface='Products.CMFPlone.interfaces.IResourceRegistry'
+           remove="true" />
+
+  <records prefix="plone.resources/unitegallery-grid"
+           interface='Products.CMFPlone.interfaces.IResourceRegistry'
+           remove="true" />
+
+  <records prefix="plone.resources/unitegallery-slider"
+           interface='Products.CMFPlone.interfaces.IResourceRegistry'
+           remove="true" />
+
+  <records prefix="plone.resources/unitegallery-tiles"
+           interface='Products.CMFPlone.interfaces.IResourceRegistry'
+           remove="true" />
+
+  <records prefix="plone.resources/unitegallery-tilesgrid"
+           interface='Products.CMFPlone.interfaces.IResourceRegistry'
+           remove="true" />
+
+  <records prefix="plone.resources/unitegallery-video"
+           interface='Products.CMFPlone.interfaces.IResourceRegistry'
+           remove="true" />
+
+  <records prefix="plone.bundles/unitegallery"
+           interface='Products.CMFPlone.interfaces.IBundleRegistry'
+           remove="true" />
+
+</registry>

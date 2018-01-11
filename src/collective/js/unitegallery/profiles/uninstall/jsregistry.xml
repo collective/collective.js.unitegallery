@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<object name="portal_javascripts" meta_type="JavaScripts Registry">
+ <javascript id="++plone++collective.js.unitegallery/js/unitegallery.min.js" remove="true" />
+ <javascript id="++plone++collective.js.unitegallery/themes/carousel/ug-theme-carousel.js" remove="true"/>
+ <javascript id="++plone++collective.js.unitegallery/themes/compact/ug-theme-compact.js" remove="true"/>
+ <javascript id="++plone++collective.js.unitegallery/themes/default/ug-theme-default.js" remove="true"/>
+ <javascript id="++plone++collective.js.unitegallery/themes/grid/ug-theme-grid.js" remove="true"/>
+ <javascript id="++plone++collective.js.unitegallery/themes/slider/ug-theme-slider.js" remove="true"/>
+ <javascript id="++plone++collective.js.unitegallery/themes/tiles/ug-theme-tiles.js" remove="true"/>
+ <javascript id="++plone++collective.js.unitegallery/themes/tilesgrid/ug-theme-tilesgrid.js" remove="true"/>
+ <javascript id="++plone++collective.js.unitegallery/themes/video/ug-theme-video.js" remove="true"/>
+</object>

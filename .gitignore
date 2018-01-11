@@ -1,11 +1,13 @@
 .coverage
+*.egg
 *.egg-info
 *.log
 *.mo
-*.py?
+*.py[co]
 *.swp
 # dirs
 bin/
+build/
 buildout-cache/
 develop-eggs/
 eggs/

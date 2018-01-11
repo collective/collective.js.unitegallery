@@ -39,6 +39,14 @@
       />
 
   <genericsetup:registerProfile
+      name="to_1010"
+      title="Upgrade profile"
+      directory="profiles/to_1010"
+      description=""
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+  <genericsetup:registerProfile
       name="uninstall"
       title="collective.js.unitegallery (uninstall)"
       directory="profiles/uninstall"
@@ -50,5 +58,21 @@
   <utility
       factory=".setuphandlers.HiddenProfiles"
       name="collective.js.unitegallery-hiddenprofiles" />
+
+  <genericsetup:upgradeSteps
+      source="1000"
+      destination="1010"
+      profile="collective.js.unitegallery:default">
+
+    <genericsetup:upgradeStep
+        title="Reload sources"
+        handler=".setuphandlers.post_install" />
+
+    <genericsetup:upgradeDepends
+        title="Remove obsolete bundles"
+        import_profile="collective.js.unitegallery:to_1010"
+        run_deps="True"/>
+
+  </genericsetup:upgradeSteps>
 
 </configure>
