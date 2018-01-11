@@ -5,7 +5,7 @@
   <records prefix="plone.resources/unitegallery"
            interface='Products.CMFPlone.interfaces.IResourceRegistry'>
     <value key="url">++plone++collective.js.unitegallery</value>
-    <value key="js">++plone++collective.js.unitegallery/js/unitegallery.min.js</value>
+    <value key="js">++plone++collective.js.unitegallery/js/unitegallery.js</value>
     <value key="css">
       <element>++plone++collective.js.unitegallery/css/unite-gallery.css</element>
     </value>
@@ -83,7 +83,7 @@
       <element>unitegallery-tilesgrid</element>
       <element>unitegallery-video</element>
     </value>
-    <value key="merge_with">default</value>
+    <value key="depends">plone</value>
     <value key="jscompilation">++plone++collective.js.unitegallery/unitegallery.min.js</value>
     <value key="csscompilation">++plone++collective.js.unitegallery/unitegallery.min.css</value>
     <value key="last_compilation">2016-12-19 00:00:00</value>

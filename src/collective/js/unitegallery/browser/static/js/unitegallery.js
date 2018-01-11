@@ -1,6 +1,8 @@
 // Unite Gallery, Version: 1.7.45, released 27 Feb 2017 
 
-
+var _require=require, _define=define;
+require = undefined;
+define = undefined;
 
 /**
  * write something to debug line
@@ -25133,3 +25135,6 @@ function UGLoadMore(){
 	
 	
 }
+
+require = _require;
+define = _define;
