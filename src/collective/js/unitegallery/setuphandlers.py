@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-from Products.CMFPlone.interfaces import INonInstallable
-from zope.interface import implementer
 from Products.CMFCore.utils import getToolByName
+from Products.CMFPlone.interfaces import INonInstallable
 from Products.CMFPlone.utils import getFSVersionTuple
 from zope.component.hooks import getSite
+from zope.interface import implementer
 
 
 @implementer(INonInstallable)
@@ -25,13 +25,14 @@ def post_install(context):
     setup = getToolByName(site, 'portal_setup')
 
     if getFSVersionTuple()[0] == 4:
-        setup.runAllImportStepsFromProfile('profile-collective.js.unitegallery:plone4')
+        setup.runAllImportStepsFromProfile('profile-collective.js.unitegallery:plone4')  # noqa
         jstool = getToolByName(site, 'portal_javascripts')
         jstool.cookResources()
         csstool = getToolByName(site, 'portal_css')
         csstool.cookResources()
     else:
-        setup.runAllImportStepsFromProfile('profile-collective.js.unitegallery:plone5')
+        setup.runAllImportStepsFromProfile('profile-collective.js.unitegallery:plone5')  # noqa
+
 
 def uninstall(context):
     """Uninstall script"""

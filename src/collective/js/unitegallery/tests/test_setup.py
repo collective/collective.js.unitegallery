@@ -26,7 +26,8 @@ class TestSetup(unittest.TestCase):
         from collective.js.unitegallery.interfaces import (
             ICollectiveJsUnitegalleryLayer)
         from plone.browserlayer import utils
-        self.assertIn(ICollectiveJsUnitegalleryLayer, utils.registered_layers())
+        self.assertIn(
+            ICollectiveJsUnitegalleryLayer, utils.registered_layers())
 
 
 class TestUninstall(unittest.TestCase):
@@ -45,6 +46,7 @@ class TestUninstall(unittest.TestCase):
 
     def test_browserlayer_removed(self):
         """Test that ICollectiveJsUnitegalleryLayer is removed."""
-        from collective.js.unitegallery.interfaces import ICollectiveJsUnitegalleryLayer
+        from collective.js.unitegallery.interfaces import ICollectiveJsUnitegalleryLayer  # noqa
         from plone.browserlayer import utils
-        self.assertNotIn(ICollectiveJsUnitegalleryLayer, utils.registered_layers())
+        self.assertNotIn(
+            ICollectiveJsUnitegalleryLayer, utils.registered_layers())
