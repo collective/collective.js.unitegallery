@@ -15,7 +15,7 @@
   <records prefix="plone.resources/unitegallery-default"
            interface='Products.CMFPlone.interfaces.IResourceRegistry'>
     <value key="url">++plone++collective.js.unitegallery</value>
-    <value key="js">++plone++collective.js.unitegallery/themes/ug-theme-default.js</value>
+    <value key="js">++plone++collective.js.unitegallery/themes/default/ug-theme-default.js</value>
     <value key="css">
       <element>++plone++collective.js.unitegallery/themes/default/ug-theme-default.css</element>
     </value>
